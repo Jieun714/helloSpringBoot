@@ -9,6 +9,10 @@ public class HelloWorldController {
     public String sayHello(){
 
         return "index"; //view 관련된 template
+    }
 
+    @GetMapping("/hi")
+    public String sayHi(){
+        return "index";
     }
 }
